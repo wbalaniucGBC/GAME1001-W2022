@@ -6,24 +6,25 @@ using namespace std;
 int main()
 {
 	const int NUM_MONTHS = 12;
-	int days[NUM_MONTHS];
+	int days[NUM_MONTHS + 1];
 
-	days[0] = 31;		// January
-	days[1] = 28;		// February
-	days[2] = 31;		// March
-	days[3] = 30;		// April
-	days[4] = 31;		// May
-	days[5] = 30;		// June
-	days[6] = 31;		// July
-	days[7] = 31;		// August
-	days[8] = 30;		// September
-	days[9] = 31;		// October
-	days[10] = 30;		// November
-	days[11] = 31;		// December
+	days[0] = 0;		// Dummy value. Not used
+	days[1] = 31;		// January
+	days[2] = 28;		// February
+	days[3] = 31;		// March
+	days[4] = 30;		// April
+	days[5] = 31;		// May
+	days[6] = 30;		// June
+	days[7] = 31;		// July
+	days[8] = 31;		// August
+	days[9] = 30;		// September
+	days[10] = 31;		// October
+	days[11] = 30;		// November
+	days[12] = 31;		// December
 
-	for (int i = 0; i < NUM_MONTHS; i++)
+	for (int i = 1; i <= NUM_MONTHS; i++)
 	{
-		cout << "Month " << setw(2) << i + 1 << " has " << days[i] << " days.\n";
+		cout << "Month " << setw(2) << i << " has " << days[i] << " days.\n";
 	}
 
 	return 0;
