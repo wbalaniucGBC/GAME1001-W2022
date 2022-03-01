@@ -16,14 +16,14 @@ void displayMessage()
 	displayMessage2();
 }
 
-int main()
-{
-	cout << "Hello from main.\n";
-	// Call a function - Display a message
-	displayMessage();
-
-	cout << "Now we are back in the main function again.\n";
-
-	return 0;
-}
+//int main()
+//{
+//	cout << "Hello from main.\n";
+//	// Call a function - Display a message
+//	displayMessage();
+//
+//	cout << "Now we are back in the main function again.\n";
+//
+//	return 0;
+//}
 
