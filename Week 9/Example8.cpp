@@ -17,13 +17,13 @@ void displayStars(int starsPerRow = 10, int numRows = 1)
 	}
 }
 
-int main()
-{
-	displayStars(7, 3);
-	cout << endl;
-	displayStars();
-	cout << endl; 
-	displayStars(5);
-
-	return 0;
-}
+//int main()
+//{
+//	displayStars(7, 3);
+//	cout << endl;
+//	displayStars();
+//	cout << endl; 
+//	displayStars(5);
+//
+//	return 0;
+//}
