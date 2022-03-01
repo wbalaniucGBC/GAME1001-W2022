@@ -4,21 +4,21 @@ using namespace std;
 // Function prototype
 void changeMe(int);
 
-int main()
-{
-	int number = 12;
-
-	// Display the value in number
-	cout << "In main number is " << number << endl;
-
-	// Call changeMe.
-	changeMe(number);
-
-	// Display the value in number
-	cout << "In main number is " << number << endl;
-
-	return 0;
-}
+//int main()
+//{
+//	int number = 12;
+//
+//	// Display the value in number
+//	cout << "In main number is " << number << endl;
+//
+//	// Call changeMe.
+//	changeMe(number);
+//
+//	// Display the value in number
+//	cout << "In main number is " << number << endl;
+//
+//	return 0;
+//}
 
 void changeMe(int myValue)
 {
