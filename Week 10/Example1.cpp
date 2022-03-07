@@ -1,33 +1,6 @@
 #include <iostream>
-#include <cmath>
+#include "Circle.h"
 using namespace std;
-
-// Circle class declaration
-class Circle
-{
-private:	// Private access specifier. Data hiding of variables
-	double radius;
-		
-public:		// Public access specifier. Member functions
-	void setRadius(double);
-	double getRadius();
-	double calcArea();
-};
-
-void Circle::setRadius(double r)
-{
-	radius = r;
-}
-
-double Circle::getRadius()
-{
-	return radius;
-}
-
-double Circle::calcArea()
-{
-	return 3.14 * pow(radius, 2);
-}
 
 int main()
 {
