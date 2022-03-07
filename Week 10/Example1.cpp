@@ -9,19 +9,25 @@ private:	// Private access specifier. Data hiding of variables
 	double radius;
 		
 public:		// Public access specifier. Member functions
-	void setRadius(double r)
-	{
-		radius = r;
-	}
-	double getRadius()
-	{
-		return radius;
-	}
-	double calcArea()
-	{
-		return 3.14 * pow(radius, 2);
-	}
+	void setRadius(double);
+	double getRadius();
+	double calcArea();
 };
+
+void Circle::setRadius(double r)
+{
+	radius = r;
+}
+
+double Circle::getRadius()
+{
+	return radius;
+}
+
+double Circle::calcArea()
+{
+	return 3.14 * pow(radius, 2);
+}
 
 int main()
 {
@@ -29,7 +35,7 @@ int main()
 	Circle circle1, circle2;
 
 	circle1.setRadius(1);
-	circle2.setRadius(2.5);
+	circle2.setRadius(-2.5);
 
 	cout << "The area of circle1 is " << circle1.calcArea() << endl;
 	cout << "The area of circle2 is " << circle2.calcArea() << endl;
