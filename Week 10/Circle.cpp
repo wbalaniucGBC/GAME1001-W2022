@@ -1,5 +1,18 @@
 #include "Circle.h"
 
+Circle::Circle(double r)
+{
+	if (r > 0.0)
+	{
+		radius = r;
+	}
+	else
+	{
+		cout << "Defaulting to 1.0.\n";
+		radius = 1.0;
+	}
+}
+
 void Circle::setRadius(double r)
 {
 	if (r > 0)
