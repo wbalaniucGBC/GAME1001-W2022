@@ -16,15 +16,15 @@ InvItem getItemData();
 
 void showItem(const InvItem &);		
 
-int main()
-{
-	InvItem part;
-
-	part = getItemData();
-	showItem(part);
-	
-	return 0;
-}
+//int main()
+//{
+//	InvItem part;
+//
+//	part = getItemData();
+//	showItem(part);
+//	
+//	return 0;
+//}
 
 // getItemData
 InvItem getItemData()
