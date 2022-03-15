@@ -5,29 +5,29 @@ using namespace std;
 // Function prototype
 int searchList(const int[], int, int); // Array, size, value to search
 
-int main()
-{
-	const int SIZE = 5;
-
-	int tests[SIZE] = { 87, 75, 98, 100, 82 };
-	int results;	// Holds the search result
-
-	// Search the result for the value 100
-	results = searchList(tests, SIZE, 100);
-
-	// If searchList returns -1, 100 was not found
-	if (results == -1)
-	{
-		cout << "You did not earn 100 points on any test. \n";
-	}
-	else
-	{
-		cout << "You earned 100 points on a test ";
-		cout << (results + 1) << endl;
-	}
-
-	return 0;
-}
+//int main()
+//{
+//	const int SIZE = 5;
+//
+//	int tests[SIZE] = { 87, 75, 98, 100, 82 };
+//	int results;	// Holds the search result
+//
+//	// Search the result for the value 100
+//	results = searchList(tests, SIZE, 100);
+//
+//	// If searchList returns -1, 100 was not found
+//	if (results == -1)
+//	{
+//		cout << "You did not earn 100 points on any test. \n";
+//	}
+//	else
+//	{
+//		cout << "You earned 100 points on a test ";
+//		cout << (results + 1) << endl;
+//	}
+//
+//	return 0;
+//}
 
 int searchList(const int list[], int size, int value)
 {
