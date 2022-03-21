@@ -3,18 +3,26 @@ using namespace std;
 
 int main()
 {
-	int x = 25;	// int variable
-	int* ptr;	// Pointer variable that points to int's.
+	int x = 25, y = 50, z = 75;	// int variable
+	int* ptr = nullptr;	// Pointer variable that points to int's.
+
+	cout << "Here are the values of x, y, and z:\n";
+	cout << x << " " << y << " " << z << endl;
 
 	ptr = &x;
+	*ptr *= 2;
 
-	cout << "The value in x is " << x << endl;
-	cout << "The value in x again is " << *ptr << endl;
+	ptr = &y;
+	*ptr *= 3;
 
-	*ptr = 100;
+	ptr = &z;
+	*ptr *= 5;
 
-	cout << "The value in x again is " << *ptr << endl;
-	cout << "The value in x is " << x << endl;
+	cout << endl << endl;
+	cout << "Here are the values of x, y, and z:\n";
+	cout << x << " " << y << " " << z << endl;
+
+	ptr = nullptr;
 
 	return 0;
 }
