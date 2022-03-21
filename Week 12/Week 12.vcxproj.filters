@@ -30,5 +30,16 @@
     <ClCompile Include="Example5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Squares.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Example6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Squares.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
