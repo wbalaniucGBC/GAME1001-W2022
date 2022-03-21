@@ -5,20 +5,20 @@ using namespace std;
 void getNumber(int*);
 void doubleValue(int*);
 
-int main()
-{
-	int number;
-
-	// Call getNumber and pass the address of number
-	getNumber(&number);
-
-	// Call doubleValue and pass the address of number
-	doubleValue(&number);
-
-	cout << "That value doubled is " << number << endl;
-
-	return 0;
-}
+//int main()
+//{
+//	int number;
+//
+//	// Call getNumber and pass the address of number
+//	getNumber(&number);
+//
+//	// Call doubleValue and pass the address of number
+//	doubleValue(&number);
+//
+//	cout << "That value doubled is " << number << endl;
+//
+//	return 0;
+//}
 
 void getNumber(int* input)
 {
