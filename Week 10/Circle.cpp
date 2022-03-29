@@ -1,14 +1,14 @@
 #include "Circle.h"
 
-Circle::Circle(double r)
+Circle::Circle(double r = 1.0)
 {
-	if (r > 0.0)
+	if (r > 0)
 	{
 		radius = r;
 	}
 	else
 	{
-		cout << "Defaulting to 1.0.\n";
+		cout << "Value must be greater than 0. Defaulting to 1";
 		radius = 1.0;
 	}
 }
