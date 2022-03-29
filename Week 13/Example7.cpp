@@ -4,20 +4,20 @@ using namespace std;
 
 void nameSlice(char[]);	// Function prototype
 
-int main()
-{
-	const int NAME_LENGTH = 41;
-	char name[NAME_LENGTH];
-
-	cout << "Enter your first and last names, separated by a space: \n";
-	cin.getline(name, NAME_LENGTH);
-
-	// Slice off the last name and print what is left
-	nameSlice(name);
-	cout << "Your first name is: " << name << endl;
-
-	return 0;
-}
+//int main()
+//{
+//	const int NAME_LENGTH = 41;
+//	char name[NAME_LENGTH];
+//
+//	cout << "Enter your first and last names, separated by a space: \n";
+//	cin.getline(name, NAME_LENGTH);
+//
+//	// Slice off the last name and print what is left
+//	nameSlice(name);
+//	cout << "Your first name is: " << name << endl;
+//
+//	return 0;
+//}
 
 void nameSlice(char userName[])
 {
